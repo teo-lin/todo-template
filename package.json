@@ -1,0 +1,18 @@
+{
+  "name": "todo-template",
+  "version": "1.0.0",
+  "description": "Sandbox Todo API build with REPLACE_ME",
+  "main": "app.js",
+  "scripts": {
+    "start": "node $npm_package_main",
+    "build": "node generate-description.js && tsc",
+    "test": "REPLACE_ME",
+    "coverage": "REPLACE_ME",
+    "debug": "node --inspect $npm_package_main",
+    "watch": "REPLACE_ME"
+  },
+  "author": "Teolin",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {}
+}
