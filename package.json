@@ -4,11 +4,12 @@
   "description": "Sandbox Todo API build with REPLACE_ME",
   "main": "app.js",
   "scripts": {
-    "start": "node $npm_package_main",
+    "start": "nodemon src/app.js",
+    "start-oop": "nodemon src-alt/app-oop.js",
+    "debug": "nodemon --inspect=9229 src/app.js",
     "build": "node generate-description.js && tsc",
     "test": "REPLACE_ME",
     "coverage": "REPLACE_ME",
-    "debug": "node --inspect $npm_package_main",
     "watch": "REPLACE_ME"
   },
   "author": "Teolin",
