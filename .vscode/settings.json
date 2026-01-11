@@ -1,3 +1,4 @@
 {
-    "postman.telemetry.enabled": false
+  "postman.telemetry.enabled": false,
+  "jest.enable": false
 }
